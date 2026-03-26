@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a13639d-3af3-4d82-b239-ff57deb69884" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/About.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.jsx" afterDir="false" />
@@ -18,8 +19,10 @@
       <change beforePath="$PROJECT_DIR$/src/pages/category/LivingCategory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/category/LivingCategory.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/react/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/react/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react/Tag.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/Tag.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/react/Themes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/Themes.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stylesheets/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
     </list>
@@ -86,7 +89,7 @@
       <updated>1774189291299</updated>
       <workItem from="1774189292393" duration="16170000" />
       <workItem from="1774281892076" duration="30640000" />
-      <workItem from="1774455635323" duration="24934000" />
+      <workItem from="1774455635323" duration="28217000" />
     </task>
     <servers />
   </component>

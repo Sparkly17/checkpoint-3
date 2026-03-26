@@ -27,6 +27,9 @@ class Tag extends React.Component {
             case 'Учеба':
                 src = study;
                 break;
+            case 'Социализация':
+                src = social;
+                break;
         }
         return (
             <div className='tag sb16 m-sb14-14'>

@@ -3,8 +3,9 @@
 }
 
 .top-title{
+  margin-top: 32px;
   height: 160px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
   display: flex;
   align-items: end;
   justify-content: center;
@@ -14,7 +15,6 @@
 .top-title-text{
   display: block;
   width: fit-content;
-  transform: translateY(25px);
 }
 
 .top-carousel{
@@ -39,6 +39,7 @@
 
 .top-title-text.second{
   width: 300px;
+  transform: translateY(-25px)
 }
 
 .left-title{
@@ -216,14 +217,14 @@
 
 .arrow-blue{
   position: absolute;
-  top: 2464px;
+  top: 2264px;
   left: 851px;
   z-index: 5;
 }
 
 .arrow-yellow{
   position: absolute;
-  top: 2258px;
+  top: 2058px;
   left: 431px;
   z-index: 5;
 }
@@ -233,6 +234,19 @@
   top: 3790px;
   left: 1059px;
   z-index: 5;
+}
+
+.house .chapter-items{
+  align-items: center;
+}
+
+.customg-img-1 .card-img{
+  width: 500px;
+  height: 284px;
+}
+
+.customg-img-2 .card-img{
+  width: 500px;
 }
 
 .arrow-pink{
@@ -420,7 +434,6 @@
     position: inherit !important;
     top: inherit !important;
     left: inherit !important;
-    display: block;
     width: 327px;
   }
 
@@ -442,6 +455,7 @@
 
   .top-title-text.second{
     width: fit-content;
+    transform: inherit;
   }
 
   .top-carousel-vert{

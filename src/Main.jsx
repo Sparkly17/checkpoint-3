@@ -66,6 +66,14 @@ import section4 from "/src/images/main/section4.png";
 import section5 from "/src/images/main/section5.png";
 import section6 from "/src/images/main/section6.png";
 
+import msection1 from "/src/images/main/msection1.png";
+import msection2 from "/src/images/main/msection2.png";
+import msection3 from "/src/images/main/msection3.png";
+import msection4 from "/src/images/main/msection4.png";
+import msection5 from "/src/images/main/msection5.png";
+import msection6 from "/src/images/main/msection6.png";
+
+
 import card_3 from "/src/images/cards/img3.png";
 import card_8 from "/src/images/cards/img8.png";
 import card_10 from "/src/images/cards/img10.png";
@@ -151,10 +159,10 @@ class Main extends React.Component {
                             </a>
                         </div>
                         <div className={'top-carousel-vert desktop'}>
-                            <Card fonts={'b24-24 m-b16'} image={mainPink}
+                            <Card fonts={'b24-24 m-b16'} type={'customg-img-1'} image={mainPink}
                                   title={'Что проверить перед подписанием официального документа'}
                                   tags={['Чек-лист', 'Документы']}/>
-                            <Card fonts={'b24-24 m-b16'} image={mainGreen}
+                            <Card fonts={'b24-24 m-b16'} type={'customg-img-2'} image={mainGreen}
                                   title={'Лайфхаки для экономии \n' +
                                       'без стресса'}
                                   tags={['Чек-лист', 'Документы']}/>
@@ -175,7 +183,7 @@ class Main extends React.Component {
                 </section>
 
                 <section className={'chapter house'}>
-                    <Link to={'/category/living'}><h2 className={'chapter-top-title sb96 m-sb24'}>Жилье</h2></Link>
+                    <Link to={'/category/living'}><h2 className={'chapter-top-title sb96 m-b48'}>Жилье</h2></Link>
                     <div className={'chapter-items'}>
                         <Link to={'/article/main'}>
                             <Card mimage={mimg1} image={img1} title={'Снимаем квартиру в новом городе правильно'}
@@ -210,12 +218,19 @@ class Main extends React.Component {
                 </div>
 
                 <section className={'web-sections'}>
-                    <Link to={'/category/living'}><img style={{position: "absolute", left: "0px", top: "0px"}} src={section1}/></Link>
-                    <Link to={'/category/finance'}><img style={{position: "absolute", left: "408px", top: "0px"}} src={section2}/></Link>
-                    <Link to={'/category/docs'}><img style={{position: "absolute", left: "714px", top: "0px"}} src={section3}/></Link>
-                    <Link to={'/category/work'}><img style={{position: "absolute", left: "0px", top: "379px"}} src={section4}/></Link>
-                    <Link to={'/category/learn'}><img style={{position: "absolute", left: "408px", top: "291px"}} src={section5}/></Link>
-                    <Link to={'/category/social'}><img style={{position: "absolute", left: "714px", top: "371px"}} src={section6}/></Link>
+                    <Link to={'/category/living'}><img className={'desktop'} style={{position: "absolute", left: "0px", top: "0px"}} src={section1}/></Link>
+                    <Link to={'/category/finance'}><img className={'desktop'} style={{position: "absolute", left: "408px", top: "0px"}} src={section2}/></Link>
+                    <Link to={'/category/docs'}><img className={'desktop'} style={{position: "absolute", left: "714px", top: "0px"}} src={section3}/></Link>
+                    <Link to={'/category/work'}><img className={'desktop'} style={{position: "absolute", left: "0px", top: "379px"}} src={section4}/></Link>
+                    <Link to={'/category/learn'}><img className={'desktop'} style={{position: "absolute", left: "408px", top: "291px"}} src={section5}/></Link>
+                    <Link to={'/category/social'}><img className={'desktop'} style={{position: "absolute", left: "714px", top: "371px"}} src={section6}/></Link>
+
+                    <Link to={'/category/living'}><img className={'mobile'} style={{position: "absolute", left: "0px", top: "0px"}} src={msection1}/></Link>
+                    <Link to={'/category/finance'}><img className={'mobile'} style={{position: "absolute", left: "408px", top: "0px"}} src={msection2}/></Link>
+                    <Link to={'/category/docs'}><img className={'mobile'} style={{position: "absolute", left: "714px", top: "0px"}} src={msection3}/></Link>
+                    <Link to={'/category/work'}><img className={'mobile'} style={{position: "absolute", left: "0px", top: "379px"}} src={msection4}/></Link>
+                    <Link to={'/category/learn'}><img className={'mobile'} style={{position: "absolute", left: "408px", top: "291px"}} src={msection5}/></Link>
+                    <Link to={'/category/social'}><img className={'mobile'} style={{position: "absolute", left: "714px", top: "371px"}} src={msection6}/></Link>
                 </section>
 
                 <section className={'chapter doc'}>
